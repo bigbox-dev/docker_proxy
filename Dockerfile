@@ -144,6 +144,7 @@ VOLUME /etc/nginx/sites-enabled/
 VOLUME /var/log/nginx/
 
 EXPOSE 80
+EXPOSE 443
 
 STOPSIGNAL SIGTERM
 
